@@ -4,7 +4,8 @@
 /node_modules
 /.pnp
 .pnp.js
-
+/demomusic
+/vestir
 # testing
 /coverage
 
