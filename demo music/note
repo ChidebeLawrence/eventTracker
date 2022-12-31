@@ -1,0 +1,31 @@
+<div className='music'>
+      <img src="../background/background2.jpg" alt="background-img" className='background-img' />
+      <audio src={currentMusicDetails.songSrc} />
+      <div className='blank-div'></div>
+      <div className="music-content">
+        <p className='name'>Music</p>
+        <p className='music-title'>{currentMusicDetails.songName}</p>
+        <div className="artist">{currentMusicDetails.songArtist}</div>
+        <img src={currentMusicDetails.songImg} alt="music-img" className="music-img" />
+        <div className='music-time'>
+          <p className='current-time'>00:00</p>
+          <p className='total-time'>04:00</p>
+        </div>
+        <input type="range" name="progressBar" value={musicProgress} onChange={handleMusicProgress} />
+        <div className='music-control'>
+          <BiSkipPrevious className='previous' />
+          {/* <AiOutlinePauseCircle /> */}
+          <AiOutlinePlayCircle className='play-btn' />
+          {/* <li className='fa-solid fa-circle-play'></li> */}
+          <BiSkipNext className='forward' />
+        </div>
+      </div>
+      <div className="change-background-img">Change Background</div>
+    </div >
+
+    const [currentMusicDetails, setCurrentMusicDetails] = useState({
+        songName: "Chasing",
+        songArtist: "NEEFEX",
+        songImg: {a},
+        songSrc: "../song/Doja Cat - So High.mp3",
+      });
