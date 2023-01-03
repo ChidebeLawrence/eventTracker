@@ -9,7 +9,7 @@ module.exports = {
     'airbnb/hooks',
     'plugin:react/recommended',
     'plugin:@typescript-eslint/recommended',
-    'plugin:prettier/recommended',
+    'eslint-config-prettier',
   ],
   overrides: [],
   parser: '@typescript-eslint/parser',
