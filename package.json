@@ -15,6 +15,9 @@
     "**/*": "prettier --write --ignore-unknown"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/material": "^5.11.3",
     "@reduxjs/toolkit": "^1.9.1",
     "eslint-import-resolver-typescript": "^3.5.2",
     "react": "^18.2.0",
