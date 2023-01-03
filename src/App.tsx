@@ -1,5 +1,5 @@
 function App() {
-  return <p className="bg-red-500">hello world</p>
+  return <h1 className="bg-yellow-500 text-xl">hello world</h1>
 }
 
 export default App
