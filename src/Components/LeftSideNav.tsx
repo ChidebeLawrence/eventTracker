@@ -5,9 +5,9 @@ import { DiGoogleAnalytics } from 'react-icons/di'
 import LeftNavTab from './LeftNavTab'
 import { NavLink } from 'react-router-dom'
 
-const LeftSideNav = () => {
+const LeftSideNav: React.FC = () => {
   return (
-    <nav className="bg-seagreen w-1/5 h-screen p-3">
+    <nav className="bg-seagreen w-1/5 sticky p-3">
       <div className="flex items-center gap-2 text-xs cursor-pointer hover:underline">
         <IoChevronBackOutline />
         Back to list

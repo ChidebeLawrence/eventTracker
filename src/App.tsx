@@ -4,9 +4,9 @@ import Section from './Components/Section'
 
 function App() {
   return (
-    <div className="text-white">
+    <div className="text-white  w-full">
       <Header />
-      <div className="flex items-center fixed w-full">
+      <div className="flex h-full w-full">
         <LeftSideNav />
         <Section />
       </div>

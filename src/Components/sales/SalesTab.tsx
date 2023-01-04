@@ -1,17 +1,21 @@
 import React from 'react'
 
-interface SalesTabProps {
+interface SalesTab {
   head: string
   edit: string
   note: string
+  icon: React.ReactElement
 }
 
-const SalesTab: React.FC<SalesTabProps> = ({ head, edit, note }) => {
+const SalesTab: React.FC<SalesTab> = ({ head, edit, note, icon }) => {
   return (
-    <div className="w-1/3 bg-white py-3 px-5 rounded-md">
+    <div className="w-1/3 bg-white p-5 rounded-md">
       <div className="flex justify-between items-center text-xs font-semibold">
         <div className="text-base">
-          <div>{head}</div>
+          <div className="flex items-center gap-3">
+            {icon}
+            {head}
+          </div>
         </div>
         <div className="">
           <div className="text-blue hover:underline cursor-pointer">{edit}</div>

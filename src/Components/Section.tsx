@@ -6,9 +6,9 @@ import Options from './options/Options'
 import Payment from './payment/Payment'
 import Sales from './sales/Sales'
 
-const Section = () => {
+const Section: React.FC = () => {
   return (
-    <section className="bg-feece8 h-screen w-4/5 p-5 text-black">
+    <section className="bg-feece8 h-fit p-5 w-4/5 overflow-hidden text-black">
       <Routes>
         <Route path="/basic_info" element={<BasicInfo />} />
         <Route path="/sales" element={<Sales />} />
