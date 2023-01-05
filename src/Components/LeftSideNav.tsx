@@ -2,12 +2,12 @@ import { IoChevronBackOutline } from 'react-icons/io5'
 import { BsInfoCircle, BsGrid1X2, BsCreditCard, BsTag } from 'react-icons/bs'
 import { HiOutlineSpeakerphone } from 'react-icons/hi'
 import { DiGoogleAnalytics } from 'react-icons/di'
-import LeftNavTab from './LeftNavTab'
+import LeftNavTab from '@/Components/LeftNavTab'
 import { NavLink } from 'react-router-dom'
 
 const LeftSideNav: React.FC = () => {
   return (
-    <nav className="bg-seagreen w-1/5 sticky p-3">
+    <nav className="bg-seagreen w-1/5 fixed top-14 bottom-0 p-3">
       <div className="flex items-center gap-2 text-xs cursor-pointer hover:underline">
         <IoChevronBackOutline />
         Back to list

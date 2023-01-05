@@ -4,18 +4,11 @@ module.exports = {
   important: '#root',
   theme: {
     extend: {
-      height: {
-        92: '92vh',
-        62: '62vh',
-      },
       fontSize: {
         14: '14px',
       },
       padding: {
         6.5: '6.5px',
-      },
-      top: {
-        56: '48px',
       },
     },
     colors: {

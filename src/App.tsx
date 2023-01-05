@@ -1,6 +1,6 @@
-import Header from './Components/Header'
-import LeftSideNav from './Components/LeftSideNav'
-import Section from './Components/Section'
+import Header from '@/Components/Header'
+import LeftSideNav from '@/Components/LeftSideNav'
+import Section from '@/Components/Section'
 
 function App() {
   return (

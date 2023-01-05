@@ -1,9 +1,9 @@
 import React from 'react'
 import { AiOutlineGlobal } from 'react-icons/ai'
 import { BsCreditCard } from 'react-icons/bs'
-import SalesActivity from './SalesActivity'
+import SalesActivity from '@/Components/private/sales/SalesActivity'
 import { GrMoney } from 'react-icons/gr'
-import SalesTab from './SalesTab'
+import SalesTab from '@/Components/private/sales/SalesTab'
 
 const Sales: React.FC = () => {
   return (
