@@ -1,8 +1,16 @@
+import Header from '@/Components/Header'
+import LeftSideNav from '@/Components/LeftSideNav'
+import Section from '@/Components/Section'
+
 function App() {
   return (
-    <h1 className="bg-yellow-500 text-xl" key="sinclair">
-      hello world
-    </h1>
+    <div className="text-white  w-full">
+      <Header />
+      <div className="flex h-full w-full">
+        <LeftSideNav />
+        <Section />
+      </div>
+    </div>
   )
 }
 
