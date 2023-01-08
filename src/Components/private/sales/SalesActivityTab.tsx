@@ -9,13 +9,16 @@ interface SalesActivityTab {
 }
 
 const SalesActivityTab: React.FC<SalesActivityTab> = ({ date, name, quantity, amount, details }) => {
-  const [isDetails, setIsDetails] = useState(false)
-  const detailsVisible = () => {
+  const [isDetails, setIsDetails] = useState<boolean>(false)
+
+  const detailsVisible: () => void = () => {
     setIsDetails(!isDetails)
   }
+
   const detailsInvisible = () => {
     setIsDetails(false)
   }
+
   return (
     <div
       onMouseEnter={detailsVisible}
@@ -26,6 +29,7 @@ const SalesActivityTab: React.FC<SalesActivityTab> = ({ date, name, quantity, am
       <div className="w-2/5">{name}</div>
       <div className="">{quantity}</div>
       <div className="">{amount}</div>
+
       <div className={`text-blue text-xs hover:underline cursor-pointer ${isDetails ? 'visible' : 'invisible'}`}>
         {details}
       </div>

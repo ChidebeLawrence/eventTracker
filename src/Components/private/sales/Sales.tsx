@@ -9,6 +9,7 @@ const Sales: React.FC = () => {
   return (
     <div>
       <div className="text-2xl font-semibold">Event Sales</div>
+
       <div className="flex flex-row gap-5 py-5">
         <SalesTab icon={<AiOutlineGlobal />} head="Public" edit="EDIT" note="Your event is listed and searchable" />
         <SalesTab
@@ -32,6 +33,7 @@ const Sales: React.FC = () => {
               <div className="text-blue">30 /110</div>
             </div>
           </div>
+
           <div className="flex gap-5">
             <div className="flex items-center gap-2">
               <div className="w-1.5 h-1.5 bg-lightLemon"></div>
@@ -44,6 +46,7 @@ const Sales: React.FC = () => {
           </div>
         </div>
       </div>
+
       <div className="flex w-full gap-5">
         <SalesActivity />
       </div>

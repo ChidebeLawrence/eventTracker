@@ -8,7 +8,7 @@ import Sales from '@/Components/private/sales/Sales'
 
 const Section: React.FC = () => {
   return (
-    <section className="bg-feece8 h-fit p-5 w-4/5 overflow-hidden text-black relative left-[270px]">
+    <section className="bg-feece8 h-fit p-5 w-4/5 overflow-hidden text-black relative left-[20%] top-[56px] overflow-auto">
       <Routes>
         <Route path="/basic_info" element={<BasicInfo />} />
         <Route path="/sales" element={<Sales />} />

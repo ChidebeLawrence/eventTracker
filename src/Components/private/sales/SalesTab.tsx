@@ -17,6 +17,7 @@ const SalesTab: React.FC<SalesTab> = ({ head, edit, note, icon }) => {
             {head}
           </div>
         </div>
+
         <div className="">
           <div className="text-blue hover:underline cursor-pointer">{edit}</div>
         </div>

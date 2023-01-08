@@ -31,6 +31,7 @@ const SalesActivity: React.FC = () => {
           <SalesActivityTab date="22/12/19" name="Robert Watson" quantity={2} amount="$ 3 000" details="DETAILS" />
         </div>
       </div>
+
       <div className="w-1/4">
         <SalesBudget name="Total Sales Goal" amount="$ 165 000" />
         <SalesBudget name="Payed" amount="$ 33 50" />
